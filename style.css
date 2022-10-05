@@ -1,0 +1,48 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Caveat', cursive;
+   transition: all .5s ease-in-out;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/Entertainment-Header-image-youtubepremium_0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin: 30px 150px;
+    padding: 10px;
+}
+.container .count > h1{
+   font-size: 60px;
+   color: rgb(240, 220, 220);
+   text-shadow: 10px 10px 15px rgb(160, 48, 109),
+                -10px -10px 15px rgb(211, 221, 72);
+                margin-bottom: 100px;
+}
+.container .sec{
+            background-color: rgba(255, 255, 255, 0.048);
+            width: 300px;
+            height: 160px;
+            padding: 10px;
+            border-radius: 5px;
+}
+  
+
+.sec .text .box{
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color:rgba(255, 255, 255, 0.137) ;
+}
+.sec .text .box:hover{
+    background-color: #d4c6c6;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
